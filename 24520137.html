@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Giới thiệu bản thân</title>
+
+    <!-- INTERNAL CSS -->
+    <style>
+        nav, footer {
+            background-color: #d4f2f4;
+            color: #0b0848;
+            padding: 10px;
+        }
+
+        #gioi-thieu {
+            background-color: #F3FDE8;
+            padding: 10px;
+        }
+
+        #giao-luu {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs_SOI59ngSltHlGxpz6F0NITG4zlGb4vfaIrYEYh6-gcom82LiGjWDLc&s=10');
+            background-repeat: repeat;
+            text-align: center;
+            padding: 10px;
+        }
+
+                h1, h2, h3, h4 {
+            font-size: 24px;
+            -webkit-text-stroke: 1px black; 
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        
+        th, td {
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <nav>
+        <ul>
+            <li><a href="#gioi-thieu" style="color: #0b0848;">Giới thiệu bản thân</a></li>
+            <li><a href="#giao-luu" style="color: #0b0848;">Gửi thông tin và liên hệ cùng tôi</a></li>
+        </ul>
+    </nav>
+
+    <div id="gioi-thieu">
+        
+
+        <img src="https://scontent.fsgn5-3.fna.fbcdn.net/v/t39.30808-6/740733899_1757230935450746_5078567613961332297_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=p526x296&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeG-WHTSzZ9j_NA110_GPseUdLWy007QpF10tbLTTtCkXZvjSvbQ1YLyNBYJC11SgJwyIcryHJAkLtBLgDwwI04k&_nc_ohc=hOdDgnC1y5MQ7kNvwGgNp2r&_nc_oc=AdrqEC14POiLzwox9_btSDh5J1V_r9_SIe9tDEBeTaSsLZXV5UqIQfa02OQd9lkjyCA&_nc_zt=23&_nc_ht=scontent.fsgn5-3.fna&_nc_gid=zQj2NNo8BMerZV_Qnb92xQ&_nc_ss=7a2a8&oh=00_AQIw6Dpfe-PeFfHMy__RxcbtNDWQDysz8hFWqqBaHzF0eA&oe=6AAD732C" 
+             alt="Ảnh đại diện" width="150" height="150" 
+             style="display: block; margin: 0 auto;">
+
+        <!-- Inline CSS phối màu cho h1, h2, h3 -->
+        <h1 style="color: #CAEDFF;">Giới thiệu bản thân</h1>
+
+        <h2 style="color: #D8B4F8;">Thông tin cơ bản</h2>
+        <ul>
+            <li><strong>Họ và tên:</strong> Vũ Lê Minh Anh</li>
+            <li><strong>Ngày sinh:</strong> 18/03/2006</li>
+            <li><strong>Quê quán:</strong> TP. Hồ Chí Minh</li>
+        </ul>
+
+        <h2 style="color: #D8B4F8;">Sở thích</h2>
+        
+        <h3 style="color: #FFC7EA;">Món ăn</h3>
+        <ol>
+            <li>Bánh mì</li>
+            <li>Đồ chiên</li>
+            <li>Cơm tấm</li>
+        </ol>
+
+        <h3 style="color: #FFC7EA;">Giải trí</h3>
+        <h4>Trò chơi</h4>
+        <ul>
+            <li>Genshin Impact</li>
+            <li>Cờ vua</li>
+        </ul>
+
+        <h4>Bài hát yêu thích</h4>
+        <ol>
+            <li>Someone like you</li>
+            <li>Beauty and the Beat</li>
+        </ol>
+
+        <h2 style="color: #D8B4F8;">Mục tiêu của bản thân</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Mục tiêu</th>
+                    <th>Thời hạn</th>
+                    <th>Hoàn thành</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Trung bình điểm môn web đạt 8.0</td>
+                    <td>DD/MM/YYYY</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Đạt chứng chỉ ngoại ngữ đủ chuẩn tốt nghiệp</td>
+                    <td>DD/MM/YYYY</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Chọn được công ty với vị trí backend developer</td>
+                    <td>DD/MM/YYYY</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <hr>
+
+
+    <div id="giao-luu">
+        <h1 style="color: #CAEDFF;">Gửi thông tin và giao lưu cùng tôi</h1>
+        
+        <form action="" method="post">
+            <label for="ho-ten">Họ và tên:</label>
+            <input type="text" id="ho-ten" name="ho_ten"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="tin-nhan">Tin nhắn:</label><br>
+            <textarea id="tin-nhan" name="tin_nhan" rows="4" cols="50"></textarea><br><br>
+
+            <label>Giới tính:</label><br>
+            <input type="radio" id="nam" name="gioi_tinh" value="Nam">
+            <label for="nam">Nam</label>
+            <input type="radio" id="nu" name="gioi_tinh" value="Nữ">
+            <label for="nu">Nữ</label><br><br>
+
+            <label>Sở thích:</label><br>
+            <input type="checkbox" id="nghe-nhac" name="so_thich" value="Nghe nhạc">
+            <label for="nghe-nhac">Nghe nhạc</label>
+            <input type="checkbox" id="Di-tham-quan" name="so_thich" value="Đi tham quan">
+            <label for="Di-tham-quan">Đi tham quan</label>
+            <input type="checkbox" id="bien" name="so_thich" value="Biển">
+            <label for="bien">Biển</label><br><br>
+
+            <label for="nganh">Ngành:</label>
+            <select id="nganh" name="nganh">
+                <option value="Khoa học Máy tính">Khoa học Máy tính</option>
+                <option value="Kỹ thuật Phần mềm">Kỹ thuật Phần mềm</option>
+                <option value="Hệ thống Thông tin">Hệ thống Thông tin</option>
+            </select><br><br>
+
+            <input type="submit" value="Gửi">
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>@2024 24520137 Vũ Lê Minh Anh</p>
+    </footer>
+
+</body>
+</html>

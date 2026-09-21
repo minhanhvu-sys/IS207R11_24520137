@@ -1,0 +1,31 @@
+nav, footer {
+    background-color: #d4f2f4;
+    color: #0b0848;
+    padding: 10px;
+}
+
+#gioi-thieu {
+    background-color: #F3FDE8;
+    padding: 10px;
+}
+
+#giao-luu {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs_SOI59ngSltHlGxpz6F0NITG4zlGb4vfaIrYEYh6-gcom82LiGjWDLc&s=10');
+    background-repeat: repeat;
+    text-align: center;
+    padding: 10px;
+}
+
+h1, h2, h3, h4 {
+    font-size: 24px;
+    -webkit-text-stroke: 1px black; 
+    font-weight: bold;              
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
